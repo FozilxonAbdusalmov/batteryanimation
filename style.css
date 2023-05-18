@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #666;
+}
+
+body>div {
+    width: 500px;
+    height: 230px;
+    margin: 100px auto;
+    border-radius: 20px;
+    border: 13px solid rgb(255, 255, 255);
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+body>div::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 35px;
+    border-radius: 7px;
+    height: 120px;
+    top: 20.5%;
+    left: 66%;
+
+}
+
+body>div>#zaryad {
+    width: 75px;
+    border-radius: 5px;
+    height: 175px;
+    background-color: yellowgreen;
+}
+
+body>div>#zaryad:nth-child(1) {
+    animation: zaryad1 1s alternate;
+    animation-delay: 0s;
+    position: absolute;
+    background-color: yellowgreen;
+}
+
+@keyframes zaryad1 {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: yellowgreen;
+    }
+}
+
+body>div>#zaryad:nth-child(2) {
+    background-color: transparent;
+    animation: zaryad2 1s alternate both;
+    animation-delay: 2s;
+    position: absolute;
+    left: 41.5%;
+    top: 17%;
+}
+
+@keyframes zaryad2 {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: yellowgreen;
+    }
+}
+
+body>div>#zaryad:nth-child(3) {
+    background-color: transparent;
+    animation: zaryad3 1s alternate both ;
+    animation-delay: 4s;
+    position: absolute;
+    left: 47.8%;
+    top: 17%;
+}
+
+@keyframes zaryad3 {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: yellowgreen;
+        animation-delay: 5s;
+    }
+}
+
+body>div>#zaryad:nth-child(4) {
+    background-color: transparent;
+    animation: zaryad4 1s alternate both;
+    animation-delay: 6s;
+    position: absolute;
+    left: 54%;
+    top: 17%;
+
+}
+
+@keyframes zaryad4 {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: yellowgreen;
+    }
+}
+
+body>div>#zaryad:nth-child(5) {
+    background-color: transparent both;
+    animation: zaryad5 1s alternate both;
+    animation-delay: 8s;
+    position: absolute;
+    left: 60%;
+    top: 17%;
+}
+
+@keyframes zaryad5 {
+    0% {
+        background-color: transparent ;
+    }
+
+    100% {
+        background-color: yellowgreen;
+    }
+}
