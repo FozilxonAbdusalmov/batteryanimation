@@ -39,14 +39,14 @@ body>div>#zaryad {
     width: 75px;
     border-radius: 5px;
     height: 175px;
-    background-color: yellowgreen;
+    background-color: blue;
 }
 
 body>div>#zaryad:nth-child(1) {
     animation: zaryad1 1s alternate;
     animation-delay: 0s;
     position: absolute;
-    background-color: yellowgreen;
+    background-color: blue;
 }
 
 @keyframes zaryad1 {
@@ -55,7 +55,7 @@ body>div>#zaryad:nth-child(1) {
     }
 
     100% {
-        background-color: yellowgreen;
+        background-color: blue;
     }
 }
 
@@ -74,7 +74,7 @@ body>div>#zaryad:nth-child(2) {
     }
 
     100% {
-        background-color: yellowgreen;
+        background-color: blue;
     }
 }
 
@@ -93,7 +93,7 @@ body>div>#zaryad:nth-child(3) {
     }
 
     100% {
-        background-color: yellowgreen;
+        background-color: blue;
         animation-delay: 5s;
     }
 }
@@ -114,7 +114,7 @@ body>div>#zaryad:nth-child(4) {
     }
 
     100% {
-        background-color: yellowgreen;
+        background-color: blue;
     }
 }
 
@@ -133,6 +133,6 @@ body>div>#zaryad:nth-child(5) {
     }
 
     100% {
-        background-color: yellowgreen;
+        background-color: blue;
     }
 }
